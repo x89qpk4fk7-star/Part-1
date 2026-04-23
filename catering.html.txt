@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tshidi's Spaza – Catering</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+    <div class="container">
+        <h1>Tshidi's Spaza</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="prices.html">Prices</a></li>
+                <li><a href="catering.html">Catering</a></li>
+                <li><a href="delivery.html">Delivery</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<main>
+    <h2>🍲 Catering Menu</h2>
+    <p>We cook for funerals, birthday parties, stokvels, and church events.</p>
+    
+    <ul>
+        <li><strong>Pap & beef stew</strong> – R25 per person</li>
+        <li><strong>Rice & chicken</strong> – R35 per person</li>
+        <li><strong>Vetkoek & mince</strong> – R15 per person</li>
+        <li><strong>Mixed plate (rice, chicken, salad, relish)</strong> – R45 per person</li>
+    </ul>
+
+    <h3>📝 Catering Inquiry Form</h3>
+    <p>Fill this in and Tshidi will WhatsApp you a quote within 24 hours.</p>
+    
+    <!-- The form has an ID so JavaScript can validate it -->
+    <form id="cateringForm">
+        <label>Your full name:</label>
+        <input type="text" id="name" required>
+        
+        <label>Event date:</label>
+        <input type="date" id="eventDate" required>
+        
+        <label>Number of people:</label>
+        <input type="number" id="people" required>
+        
+        <label>Your budget (R):</label>
+        <input type="number" id="budget">
+        
+        <label>Any special requests?</label>
+        <textarea id="message" rows="3"></textarea>
+        
+        <button type="submit">Send Inquiry</button>
+    </form>
+</main>
+
+<footer>
+    <p>&copy; 2026 Tshidi's Spaza & Catering – Diepkloof, Soweto</p>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>

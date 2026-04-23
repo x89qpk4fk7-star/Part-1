@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tshidi's Spaza – Delivery</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+    <div class="container">
+        <h1>Tshidi's Spaza</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="prices.html">Prices</a></li>
+                <li><a href="catering.html">Catering</a></li>
+                <li><a href="delivery.html">Delivery</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<main>
+    <h2>🛵 Delivery Order Form</h2>
+    <p><strong>Delivery areas:</strong> Diepkloof Extensions 1, 2, 3, and 4 only.</p>
+    <p>Free delivery for orders over R50. Otherwise R10 delivery fee.</p>
+    
+    <form id="deliveryForm">
+        <label>Your full name:</label>
+        <input type="text" id="deliveryName" required>
+        
+        <label>Delivery address (street name, extension, landmark):</label>
+        <textarea id="address" rows="2" required></textarea>
+        
+        <label>Phone number (so Tshidi can call you):</label>
+        <input type="tel" id="phone" required>
+        
+        <label>What do you need? (list items from price list):</label>
+        <textarea id="items" rows="3" required></textarea>
+        
+        <label>When do you need it?</label>
+        <input type="text" id="time" placeholder="e.g., ASAP, before 5pm, tomorrow morning">
+        
+        <button type="submit">Submit Order</button>
+    </form>
+    
+    <p><strong>Urgent?</strong> Call Tshidi directly: <a href="tel:+27721234567">072 123 4567</a></p>
+</main>
+
+<footer>
+    <p>&copy; 2026 Tshidi's Spaza & Catering – Diepkloof, Soweto</p>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>

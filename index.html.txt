@@ -1,0 +1,73 @@
+<meta name='viewport' content='width=device-width, initial-scale=1'/><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tshidi's Spaza – Diepkloof, Soweto</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- 
+    HEADER – same on every page so users don't get lost 
+    I used a yellow background because spaza shops in Soweto often use yellow.
+-->
+<header>
+    <div class="container">
+        <h1>Tshidi's Spaza</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="prices.html">Prices</a></li>
+                <li><a href="catering.html">Catering</a></li>
+                <li><a href="delivery.html">Delivery</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<main>
+    <!-- HERO SECTION – big welcome message and buttons -->
+    <section class="hero">
+        <h2>Your Local Spaza Shop</h2>
+        <p>Bread, milk, airtime, and catering – right here in Diepkloof</p>
+        <!-- WhatsApp button – this is how most people actually order -->
+        <a href="https://wa.me/27721234567" class="btn-whatsapp">💬 WhatsApp Us</a>
+        <!-- Call button – for elderly customers who don't use WhatsApp -->
+        <a href="tel:+27721234567" class="btn-call">📞 Call Now</a>
+    </section>
+
+    <!-- DAILY SPECIAL – like a chalkboard outside the shop -->
+    <section class="daily-special">
+        <p>🍽️ Today's Special: Vetkoek & Mince – R15 🍽️</p>
+    </section>
+
+    <!-- THREE CARDS – quick links to the most important pages -->
+    <section class="features">
+        <div class="card">
+            <h3>🛒 Daily Essentials</h3>
+            <p>Bread, milk, airtime, cool drinks, chips, sugar, oil</p>
+            <a href="prices.html">View Prices →</a>
+        </div>
+        <div class="card">
+            <h3>🍲 Catering</h3>
+            <p>Funerals, parties, stokvels, church events</p>
+            <a href="catering.html">Inquire →</a>
+        </div>
+        <div class="card">
+            <h3>🛵 Delivery</h3>
+            <p>We come to your door – Diepkloof only</p>
+            <a href="delivery.html">Order →</a>
+        </div>
+    </section>
+</main>
+
+<!-- FOOTER – same on every page, with copyright -->
+<footer>
+    <p>&copy; 2026 Tshidi's Spaza & Catering – Diepkloof, Soweto</p>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
