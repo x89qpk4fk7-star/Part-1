@@ -1,0 +1,13 @@
+# robots.txt for Tshidi's Spaza Website
+# This file guides search engine crawlers
+
+User-agent: *
+Allow: /
+
+# These pages don't need to be in search results
+Disallow: /delivery.html
+Disallow: /catering.html
+Disallow: /contact.html
+
+# Tell search engines where to find the sitemap
+Sitemap: https://tshidi-spaza.netlify.app/sitemap.xml
