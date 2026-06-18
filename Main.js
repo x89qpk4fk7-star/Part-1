@@ -25,6 +25,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 alert('Please fill in all required fields (Name, Event Date, and Number of People).');
                 return;
             }
+
             
             // Validate people is a positive number
             if (parseInt(people) <= 0) {
@@ -141,4 +142,43 @@ document.addEventListener('DOMContentLoaded', function() {
     //     const today = new Date().getDay();
     //     specialElement.textContent = '🍽️ Today\'s Special: ' + specials[today % specials.length] + ' 🍽️';
     // }
+});
+// ==========================================
+// LIGHTBOX FUNCTIONS - Gallery popup
+// ==========================================
+function openLightbox(title, description, price) {
+    const lightbox = document.getElementById('lightbox');
+    const emojis = {
+        'Bread & Milk': '🍞',
+        'Cool Drinks': '🥤',
+        'Snacks': '🍿',
+        'Catering': '🍲'
+    };
+    
+    document.getElementById('lightbox-emoji').textContent = emojis[title] || '🛒';
+    document.getElementById('lightbox-title').textContent = title;
+    document.getElementById('lightbox-description').textContent = description;
+    document.getElementById('lightbox-price').textContent = 'Price: ' + price;
+    
+    lightbox.style.display = 'flex';
+    document.body.style.overflow = 'hidden'; // Prevent scrolling
+}
+
+function closeLightbox() {
+    document.getElementById('lightbox').style.display = 'none';
+    document.body.style.overflow = 'auto';
+}
+
+// Close lightbox when clicking outside
+document.getElementById('lightbox').addEventListener('click', function(e) {
+    if (e.target === this) {
+        closeLightbox();
+    }
+});
+
+// Close lightbox with Escape key
+document.addEventListener('keydown', function(e) {
+    if (e.key === 'Escape') {
+        closeLightbox();
+    }
 });
