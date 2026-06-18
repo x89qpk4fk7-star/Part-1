@@ -36,3 +36,18 @@ Tshidi's Spaza is a small, family-run spaza shop located in Diepkloof, Soweto. T
 ---
 
 ## 📁 File Structure
+
+1. MDN Web Docs. (2026). CSS: Cascading
+Style Sheets. Available at: https:// developer.mozilla.org/en-US/docs/Web/
+CSS (Accessed: 18 June 2026).
+2. MDN Web Docs. (2026). JavaScript
+Guide. Available at: https://
+developer.mozilla.org/en-US/docs/Web/ JavaScript/Guide (Accessed: 18 June 2026).
+3. W3Schools. (2026). How To - Accordion. Available at: https:// www.w3schools.com/howto/
+howto_js_accordion.asp (Accessed: 18
+June 2026).
+4. W3Schools. (2026). How To - Lightbox.
+Available at: https://
+www.w3schools.com/howto/
+howto_js_lightbox.asp (Accessed: 18
+June 2026).
