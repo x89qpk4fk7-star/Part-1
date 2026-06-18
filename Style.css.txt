@@ -541,3 +541,28 @@ footer p {
         width: 100%;
     }
 }
+============================================
+   GALLERY LIGHTBOX
+   ============================================
+.gallery-item:hover > div {
+    transform: scale(1.03);
+    box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+}
+
+#lightbox {
+    animation: fadeIn 0.3s ease;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+#lightbox > div {
+    animation: slideUp 0.3s ease;
+}
+
+@keyframes slideUp {
+    from { transform: translateY(30px); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+}
