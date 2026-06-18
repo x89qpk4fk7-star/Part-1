@@ -37,6 +37,8 @@ Tshidi's Spaza is a small, family-run spaza shop located in Diepkloof, Soweto. T
 
 ## 📁 File Structure
 
+## References 
+
 1. MDN Web Docs. (2026). CSS: Cascading
 Style Sheets. Available at: https:// developer.mozilla.org/en-US/docs/Web/
 CSS (Accessed: 18 June 2026).
