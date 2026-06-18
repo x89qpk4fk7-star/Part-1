@@ -29,16 +29,17 @@
     <p><strong>Address:</strong><br>
     1234 Mofolo Street, Diepkloof, Soweto<br>
     (Next to Diepkloof Clinic)</p>
+    <!-- GOOGLE MAPS - Interactive map -->
+<iframe 
+    src="https://maps.google.com/maps?q=Diepkloof+Soweto&t=&z=13&ie=UTF8&iwloc=&output=embed" 
+    width="100%" 
+    height="350" 
+    style="border:0; border-radius: 12px; box-shadow: 0 2px 12px rgba(0,0,0,0.08);" 
+    allowfullscreen="" 
+    loading="lazy" 
+    title="Tshidi's Spaza location in Diepkloof, Soweto">
+</iframe>
     
-    <!-- Google Maps embed – I got this code from Google Maps by searching "Diepkloof Soweto" -->
-    <iframe 
-        src="https://maps.google.com/?q=Diepkloof+Soweto&output=embed" 
-        width="100%" 
-        height="300" 
-        style="border:0;" 
-        allowfullscreen="" 
-        loading="lazy">
-    </iframe>
     
     <p><strong>📱 WhatsApp:</strong> <a href="https://wa.me/27721234567">072 123 4567 (tap to chat)</a></p>
     <p><strong>📞 Call:</strong> <a href="tel:+27721234567">072 123 4567 (tap to dial)</a></p>
