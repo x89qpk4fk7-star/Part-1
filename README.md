@@ -11,10 +11,10 @@ A responsive website for a local spaza shop in Diepkloof, Soweto. The website pr
 ## 📌 PROJECT OVERVIEW
 
 **Project Name:** Tshidi's Spaza & Catering Website  
-**Student Name:** [Your Name]  
-**Student Number:** [Your Number]  
+**Student Name:** [Ntsako Aaron Sambo]  
+**Student Number:** [St10533475]  
 **Module:** WEDE5020 - Web Development (Introduction)  
-**Date:** June 2026
+**Date:18 June 2026
 
 ### 🏪 About the Business
 
